@@ -1,7 +1,5 @@
 # knex_migration
-To run make sure you have docker and fig installed, then execute:
+To run you'll need to modify the server/config/knexfile.js file to match your DB information:
 
-    fig build
-    fig up
-    
-    
+    npm install
+    gulp mocha

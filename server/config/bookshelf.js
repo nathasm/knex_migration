@@ -1,5 +1,4 @@
-var config = require('./index');
-var knex = require('knex')(config.db);
+var knex = require('knex')(require('./knexfile')['test']);
 var bookshelf = require('bookshelf')(knex);
 
 // Allows a model to have hidden attributes that won't be printed
