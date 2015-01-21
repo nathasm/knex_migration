@@ -1,0 +1,11 @@
+.DS_Store
+coverage
+node_modules
+client/vendor/
+*.sw*
+*~
+*.bak
+*.log
+build
+.nodemon
+*.xml

@@ -1,0 +1,4 @@
+{
+	"salt_work_factor": 10,
+  "JWTsecret": "This is the secret hush hush!"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "knex_migration",
+  "version": "0.0.1",
+  "description": "Website",
+  "engines": {
+    "node": ">=0.10.35"
+  },
+  "author": {
+    "name": "Nathan Smith"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp mocha"
+  },
+  "private": true,
+  "dependencies": {
+    "bookshelf": "^0.7.9",
+    "faker": "^2.1.1",
+    "knex": "^0.7.3",
+    "lodash": "^2.4.1",
+    "mysql": "^2.5.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-shell": "^0.2.11",
+    "gulp-spawn-mocha": "^0.5.1",
+    "gulp-util": "^3.0.1",
+    "mocha": "^2.1.0",
+    "mocha-jenkins-reporter": "^0.1.3"
+  }
+}
